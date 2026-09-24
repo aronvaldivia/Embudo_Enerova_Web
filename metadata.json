@@ -1,0 +1,6 @@
+{
+  "name": "Enerova Aislamiento Térmico",
+  "description": "Landing page responsiva con formulario de cualificación por pasos (funnel) para servicios de aislamiento térmico de viviendas con integración a Google Form.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
