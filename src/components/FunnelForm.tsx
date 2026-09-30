@@ -179,7 +179,7 @@ export default function FunnelForm({ onSuccessSubmission }: FunnelFormProps) {
       <div className="bg-gradient-to-r from-[#024327] to-[#035933] px-5 py-3.5 text-center text-white relative">
         <h2 className="text-white font-extrabold uppercase tracking-wider text-xs sm:text-sm font-['Outfit'] flex items-center justify-center gap-2">
           <Sparkles className="w-4 h-4 text-[#76b72f]" />
-          ENVIA TU SOLICITUD COMPLETAMENTE GRATIS!
+          ENVIA TU SOLICITUD Y NOSOTROS TE LLAMAMOS!
         </h2>
         <p className="text-[11px] sm:text-xs text-emerald-100/90 mt-0.5">
           Una de nuestras asesoras se pondrá en contacto contigo.
