@@ -13,6 +13,10 @@ export const APP_CONFIG = {
   brandTagline: 'Aislamiento Térmico Eficiente',
   adminEmail: 'enerova.admin@gmail.com',
   supportPhone: '637 757 769',
+  whatsappNumber: '34637757769',
+  whatsappDisplayPhone: '+34 637 75 77 69',
+  whatsappMessage: 'Hola, deseo solicitar mayor información sobre el aislamiento de buhardillas 100% subvencionado por CAEs.',
+  whatsappIconUrl: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/6a015e22-aa71-b9b0-bd4d-9f7ceb65d7a1.png',
   supportHours: 'Lun a Vie: 9:00 - 19:00',
 
   // 1. LOGO EN EL HEADER (Cambia esta URL para usar tu propio logo)
