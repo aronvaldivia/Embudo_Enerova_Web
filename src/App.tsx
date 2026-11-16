@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import CaeProcessSection from './components/CaeProcessSection';
 import FeaturesFooter from './components/FeaturesFooter';
 import { APP_CONFIG } from './config';
 
@@ -15,9 +16,12 @@ export default function App() {
           desktopVideoUrl={APP_CONFIG.desktopVideoUrl}
           mobileVideoUrl={APP_CONFIG.mobileVideoUrl}
         />
+
+        {/* 3. Sección interactiva: ¿Cómo funciona el Programa CAE? */}
+        <CaeProcessSection />
       </main>
 
-      {/* 3. Footer con las 3 características obligatorias del servicio e información corporativa */}
+      {/* 4. Footer con las 3 características obligatorias del servicio e información corporativa */}
       <FeaturesFooter />
     </div>
   );
