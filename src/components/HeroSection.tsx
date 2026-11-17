@@ -109,7 +109,7 @@ export default function HeroSection({
               <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.15] font-['Outfit']">
                 Solicita el aislamiento de tu buhardilla{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#a6e65d] to-[#76b72f]">
-                  100% subvencionado
+                  100% subvencionadoo
                 </span>{' '}
                 por CAEs
               </h1>
