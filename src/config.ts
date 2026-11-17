@@ -30,7 +30,11 @@ export const APP_CONFIG = {
   // Video vertical / optimizado para pantallas de smartphone
   mobileVideoUrl: 'https://mcusercontent.com/17635adc15e4488859eb5650d/files/927a1af6-c8e3-7272-a135-876d3e4a8796/VIDEO_FONDO_CELL_ENEROVA.mp4',
 
-  // 4. IMAGEN DE RESPALDO (POSTER) EN CASO DE CONEXIÓN LENTA
+  // 4. VIDEO VERTICAL (1080 x 1920) PARA LA SECCIÓN "¿POR QUÉ ENEROVA?" (DEBAJO DEL HERO)
+  // Cambia esta URL por tu video vertical en formato MP4 (relación 9:16 / 1080x1920)
+  trustVideoUrl: 'https://mcusercontent.com/17635adc15e4488859eb5650d/files/927a1af6-c8e3-7272-a135-876d3e4a8796/VIDEO_FONDO_CELL_ENEROVA.mp4',
+
+  // 5. IMAGEN DE RESPALDO (POSTER) EN CASO DE CONEXIÓN LENTA
   fallbackPosterUrl: '',
 
   // 5. IMÁGENES PARA PREGUNTA 2: ¿QUÉ TIPO DE BUHARDILLA TIENES?
