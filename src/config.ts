@@ -1,4 +1,6 @@
 import { GoogleFormConfig } from './types';
+import atticBeforeDefaultImg from './assets/images/attic_before_insulation_1794933467910.jpg';
+import atticAfterDefaultImg from './assets/images/attic_after_insulation_1794933468144.jpg';
 
 /**
  * =========================================================================
@@ -37,10 +39,15 @@ export const APP_CONFIG = {
   // 5. IMAGEN DE RESPALDO (POSTER) EN CASO DE CONEXIÓN LENTA
   fallbackPosterUrl: '',
 
-  // 5. IMÁGENES PARA PREGUNTA 2: ¿QUÉ TIPO DE BUHARDILLA TIENES?
+  // 6. IMÁGENES PARA PREGUNTA 2: ¿QUÉ TIPO DE BUHARDILLA TIENES?
   // Puedes cambiar estas URLs por las tuyas en cualquier momento
   buhardillaInhabitableImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/3012c3f2-c9b5-98c9-1c1b-5f1d84359ad9.jpeg',
   buhardillaHabitableImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/12da9565-5927-ccf5-3f76-590b521fa322.jpeg',
+
+  // 7. IMÁGENES ANTES Y DESPUÉS PARA LA SECCIÓN "NUESTRAS SOLUCIONES"
+  // Puedes reemplazarlas con tus propias URLs de fotos reales entre comillas
+  beforeInsulationImg: atticBeforeDefaultImg,
+  afterInsulationImg: atticAfterDefaultImg,
 
   // 6. CONFIGURACIÓN DE GOOGLE FORM VINCULADO A: FORMULARIO DE CLIENTES WEB
   googleForm: {
