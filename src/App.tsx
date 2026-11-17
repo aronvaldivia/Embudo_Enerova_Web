@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import WhyEnerovaSection from './components/WhyEnerovaSection';
 import CaeProcessSection from './components/CaeProcessSection';
 import FeaturesFooter from './components/FeaturesFooter';
 import { APP_CONFIG } from './config';
@@ -17,11 +18,14 @@ export default function App() {
           mobileVideoUrl={APP_CONFIG.mobileVideoUrl}
         />
 
-        {/* 3. Sección interactiva: ¿Cómo funciona el Programa CAE? */}
+        {/* 3. Sección clara: ¿Por qué Enerova? con video vertical 1080x1920 */}
+        <WhyEnerovaSection />
+
+        {/* 4. Sección interactiva: ¿Cómo funciona el Programa CAE? */}
         <CaeProcessSection />
       </main>
 
-      {/* 4. Footer con las 3 características obligatorias del servicio e información corporativa */}
+      {/* 5. Footer con las 3 características obligatorias del servicio e información corporativa */}
       <FeaturesFooter />
     </div>
   );
