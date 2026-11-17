@@ -1,6 +1,4 @@
 import { GoogleFormConfig } from './types';
-import atticBeforeDefaultImg from './assets/images/attic_before_insulation_1794933467910.jpg';
-import atticAfterDefaultImg from './assets/images/attic_after_insulation_1794933468144.jpg';
 
 /**
  * =========================================================================
@@ -45,9 +43,9 @@ export const APP_CONFIG = {
   buhardillaHabitableImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/12da9565-5927-ccf5-3f76-590b521fa322.jpeg',
 
   // 7. IMÁGENES ANTES Y DESPUÉS PARA LA SECCIÓN "NUESTRAS SOLUCIONES"
-  // Puedes reemplazarlas con tus propias URLs de fotos reales entre comillas
-  beforeInsulationImg: atticBeforeDefaultImg,
-  afterInsulationImg: atticAfterDefaultImg,
+  // Pega aquí las URLs directas de tus fotos "Antes" y "Después"
+  beforeInsulationImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/3012c3f2-c9b5-98c9-1c1b-5f1d84359ad9.jpeg',
+  afterInsulationImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/12da9565-5927-ccf5-3f76-590b521fa322.jpeg',
 
   // 6. CONFIGURACIÓN DE GOOGLE FORM VINCULADO A: FORMULARIO DE CLIENTES WEB
   googleForm: {
@@ -65,3 +63,4 @@ export const APP_CONFIG = {
     },
   } as GoogleFormConfig,
 };
+
