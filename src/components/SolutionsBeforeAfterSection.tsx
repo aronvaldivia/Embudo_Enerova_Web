@@ -136,7 +136,7 @@ export default function SolutionsBeforeAfterSection() {
             className="relative w-full aspect-[16/10] sm:aspect-[16/9] rounded-[12px] overflow-hidden select-none touch-none cursor-ew-resize bg-[#07110d] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#8fd93f]"
           >
             {/* Imagen DESPUÉS (Capa base 100%) */}
-            {!afterImgError ? (
+            {APP_CONFIG.afterInsulationImg && !afterImgError ? (
               <img
                 src={APP_CONFIG.afterInsulationImg}
                 alt="Buhardilla después de aplicar lana mineral blanca soplada"
@@ -157,7 +157,7 @@ export default function SolutionsBeforeAfterSection() {
               className="absolute inset-0 pointer-events-none select-none"
               style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
             >
-              {!beforeImgError ? (
+              {APP_CONFIG.beforeInsulationImg && !beforeImgError ? (
                 <img
                   src={APP_CONFIG.beforeInsulationImg}
                   alt="Buhardilla antes de instalar el aislamiento térmico"
