@@ -44,8 +44,8 @@ export const APP_CONFIG = {
 
   // 7. IMÁGENES ANTES Y DESPUÉS PARA LA SECCIÓN "NUESTRAS SOLUCIONES"
   // Pega aquí las URLs directas de tus fotos "Antes" y "Después"
-  beforeInsulationImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/3012c3f2-c9b5-98c9-1c1b-5f1d84359ad9.jpeg',
-  afterInsulationImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/12da9565-5927-ccf5-3f76-590b521fa322.jpeg',
+  beforeInsulationImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/576938e6-65a2-f092-d47f-03be63f03152.png',
+  afterInsulationImg: 'https://mcusercontent.com/17635adc15e4488859eb5650d/images/2f11c4e2-0d51-f097-fb85-5724440069ae.png',
 
   // 6. CONFIGURACIÓN DE GOOGLE FORM VINCULADO A: FORMULARIO DE CLIENTES WEB
   googleForm: {
